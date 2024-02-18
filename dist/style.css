@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#frame {
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0px;
+}
+
+#pics {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.photo {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+}
+
+#nav {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow {
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#picSelector {
+    bottom: 45px;
+    width: fit-content;
+}
+
+#btnDiv {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    font-size: 15px;
+}

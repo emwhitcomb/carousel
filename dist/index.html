@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Photo Carousel</title>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div id="frame">
+        <div id="pics">
+            <img class="photo" src=".\images\pic_1.jpg" alt="photo-1"/>
+            <img class="photo" src=".\images\pic_2.jpg" alt="photo-2"/>
+            <img class="photo" src=".\images\pic_3.jpg" alt="photo-3"/>
+            <img class="photo" src=".\images\pic_4.jpg" alt="photo-4"/>
+        </div>
+    </div>
+
+    <div id="nav">
+        <button id="leftArrow" class="arrow">&#10094</button>
+        <form id="picSelector">
+            <input id="dot1" class="dot" type="radio" name="dot" checked>
+            <input id="dot2" class="dot" type="radio" name="dot">
+            <input id="dot3" class="dot" type="radio" name="dot">
+            <input id="dot4" class="dot" type="radio" name="dot">
+        </form>
+        <button id="rightArrow" class="arrow">&#10095</button>
+    </div>
+    
+    <div id="btnDiv">
+        <button id="stop" class="btn">Stop</button>
+        <button id="play" class="btn">Play</button>
+    </div>
+
+</body>
+</html>
